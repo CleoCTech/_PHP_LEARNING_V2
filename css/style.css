@@ -1,0 +1,12 @@
+body {
+    background: #08070b;
+    margin: 0;
+    padding: 0;
+}
+
+.layout-module--root--s1j2- {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 1fr auto;
+    min-height: 100vh;
+}
