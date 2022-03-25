@@ -8,12 +8,19 @@
         <title>Document</title>
 
         <!-- <link rel="stylesheet" href="css/style.css"> -->
+        <style>
+        header {
+            background: #e3e3e3;
+            padding: 2em;
+            text-align: center;
+        }
+        </style>
     </head>
 
     <body>
         <header>
             <h1>
-                <?= "Hello" ?>
+                <?= "Hello, " .htmlspecialchars($_GET['name'] ); ?>
             </h1>
         </header>
     </body>
