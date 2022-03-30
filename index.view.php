@@ -19,12 +19,30 @@
 
     <body>
         <header>
-            <ul>
-                <?php foreach ($person as $key => $feature) :?>
-                <li> <strong><?= $key; ?></strong><?= $feature ?></li>
-                <?php endforeach;?>
-            </ul>
+            <h1>Task of the day</h1>
         </header>
+
+        <ul>
+            <?php foreach ($task as $key => $value): ?>
+            <li> <strong><?= ucwords($key); ?>: </strong><?= $value; ?></li>
+            <?php endforeach; ?>
+        </ul>
+        <br>
+        <ul>
+            <li>
+                <strong>Task Name: </strong> <?= $task['title']; ?>
+            </li>
+            <li>
+                <strong>Due Date: </strong> <?= $task['due']; ?>
+            </li>
+            <li>
+                <strong>Person Responsible: </strong> <?= $task['assigned_to']; ?>
+            </li>
+            <li>
+                <strong>Statu: </strong> <?= ($task['completed']) ? 'Completed' : 'Incomplete' ; ?>
+            </li>
+        </ul>
+
     </body>
 
 </html>

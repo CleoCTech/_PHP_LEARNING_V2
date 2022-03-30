@@ -23,4 +23,10 @@ $person = [
 
 ```
 	-We also learn a debug like method using die(var_dump('something to check')). 
-	
+
+# Laracast Episode 8
+## Associative Arrays with Booleans:	
+	-Casting out a boolean value(true/false) into html, we may not see anything(1) and we do, it doesn't make sense. 
+	-Php will give you more control over the array, rather than filtering through the array, you can do it one at a time if you want to control of what the keys are. 
+	-$task['completed'] is a boolean, therefore we can check if it's true or false then proceed to echo something in html that is more informative and understandable. We use ternay operator as a shorthand of if (){---} else {----}
+	-Learnt php helper functions like ucwords(), strtoupper(). You can learn this functions by lot of reading or googling when the need arises in you coding career. 

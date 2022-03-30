@@ -1,17 +1,13 @@
 <?php
 
 //array -> primitive collection of reltaed things. 
-$person = [
-    
-    'age'=>26, 
-    'hair'=>'Black', 
-    'career'=>'Web Developer'
+$task = [
+    'title'=>'Finish Homeowrk',
+    'due'=>'Today',
+    'assigned_to'=>'Cleo',
+    'completed'=> true, //a boolean value, where we can use condition in view to check if the task is completed and if so we check a green checkmark.
 ];
 
-$person['name'] = 'Cleo';
-
-unset($person['name']);
-
-// die(var_dump($person));
+// die(var_dump($task));
 
 require 'index.view.php'; // require means, pull in everything from this path; 
