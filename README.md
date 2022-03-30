@@ -10,3 +10,17 @@
 ## Understanding Arrays:	
 	-Creat array by assigning a value to a variable i.e $names = []; and within you can have any number of items. 
 	-Then we loop the items in html element list. First method is shorthand method which makes your code cleaner. 
+
+# Laracast Episode 7
+## Associative Arrays:	
+	-Here, each item has a key and when we point to the key, we can get it's value. 
+
+```
+$person = [
+	'age' =>26,
+	'color' =>'black',
+];
+
+```
+	-We also learn a debug like method using die(var_dump('something to check')). 
+	

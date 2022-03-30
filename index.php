@@ -1,10 +1,17 @@
 <?php
 
 //array -> primitive collection of reltaed things. 
-$names = ['Kariuki', 'G', 'Cleo'];
+$person = [
+    
+    'age'=>26, 
+    'hair'=>'Black', 
+    'career'=>'Web Developer'
+];
 
+$person['name'] = 'Cleo';
 
-// foreach ($names as $name) {
-//     echo $name .',';
-// }
+unset($person['name']);
+
+// die(var_dump($person));
+
 require 'index.view.php'; // require means, pull in everything from this path; 

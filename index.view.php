@@ -20,16 +20,9 @@
     <body>
         <header>
             <ul>
-                <?php foreach ($names as $name) :?>
-                <li><?= $name ?></li>
+                <?php foreach ($person as $key => $feature) :?>
+                <li> <strong><?= $key; ?></strong><?= $feature ?></li>
                 <?php endforeach;?>
-                <br>
-
-                <?php 
-
-                    foreach ($names as $name)
-                    echo "<li>$name</li>"
-                ?>
             </ul>
         </header>
     </body>
