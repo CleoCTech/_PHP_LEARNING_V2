@@ -48,3 +48,8 @@ $person = [
 	if(! true) {---}
 ?>
 ```
+# Laracast Episode 9
+## Functions:
+	-Reusable functions. Creating methods that you can call at any given point.
+	-To save time and avoid repeating code that does the same thing. 
+	-You can now call methods just like we were calling ready made php methods like ucwords(), htmlspecial(), etc.
