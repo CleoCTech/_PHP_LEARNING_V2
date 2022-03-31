@@ -48,8 +48,14 @@ $person = [
 	if(! true) {---}
 ?>
 ```
-# Laracast Episode 9
+# Laracast Episode 10
 ## Functions:
 	-Reusable functions. Creating methods that you can call at any given point.
 	-To save time and avoid repeating code that does the same thing. 
 	-You can now call methods just like we were calling ready made php methods like ucwords(), htmlspecial(), etc.
+
+# Laracast Episode 11
+## MYSQL 101:	
+	-Basic SQL queries using command line and GUI's. 
+	![MSQL101](images/markdown/mysql101.png)
+	
