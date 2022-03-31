@@ -58,4 +58,36 @@ $person = [
 ## MYSQL 101:	
 	-Basic SQL queries using command line and GUI's. 
 	![MSQL101](images/markdown/mysql101.png)
-	
+
+# Laracast Episode 12
+## Classes 101:	
+	-How do we define a class? 
+	-A class can represent any possible thing in  your project. A blueprint.
+	-When naming a class we use a Noun. e.g Person, Task, Student, etc. In regard to the context. 
+
+```
+<?php
+
+class Person{
+	//properties and methods
+
+	public $name;
+	public $age;
+	public $career;
+
+	//methods
+	public function __construct($name, $age, $career){
+		//automatically triggered on instantiation/initialization
+		$this->name = $name;
+		echo $this->name;
+		$this->laugh();
+	}
+	public function laugh(){
+		echo "Hahahaaa..";
+	}
+}
+//instantiation
+$person = new Person('John', '26', 'Web Developer');
+
+```
+	-With time as a Student of programming using any language, you will learn what classes are, how they communicate with each other and why we use them.
